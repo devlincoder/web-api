@@ -1,0 +1,26 @@
+.sidebar {
+  position: fixed;
+  background-color: var(--color-2);
+  width: var(--width-sidebar);
+  max-width: var(--width-sidebar);
+  height: 100vh;
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  a {
+    width: 100%;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    &:hover {
+      background-color: var(--color-3);
+    }
+  }
+  .active {
+    background-color: var(--color-4);
+    color: var(--color-1);
+  }
+}

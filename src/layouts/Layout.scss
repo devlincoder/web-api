@@ -1,0 +1,5 @@
+.content{
+    margin-left: var(--width-sidebar);
+    width: calc(100vw - var(--width-sidebar));
+    padding: 20px;
+}
